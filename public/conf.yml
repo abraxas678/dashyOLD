@@ -1,47 +1,1373 @@
----
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: callisto
+  layout: auto
+  iconSize: medium
+  language: de
+pageInfo:
+  title: Dashy109
+  description: Welcome to your new dashboard v109!
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+  footerText: ''
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
+  - displayData:
+      cols: 2
+      itemCountX: 5
+      sectionLayout: grid
+      sortBy: default
+      rows: 5
+      collapsed: false
+      hideForGuests: false
+    icon: fas fa-code
+    items:
+      - title: conf edit 1
+        icon: favicon
+        url: https://github.com/abraxas678/dashy-1/edit/master/public/conf.yml
+        target: newtab
+        id: 0_957_confedit
+      - title: conf edit 1
+        icon: favicon
+        url: https://github.com/abraxas678/dashy-1/edit/master/public/conf.yml
+        target: newtab
+        id: 1_957_confedit
+      - title: TOWER
+        icon: https://i.imgur.com/vIy96Pqs.png
+        url: http://tower.local
+        target: newtab
+        id: 2_957_tower
+      - title: Doc Notes
+        icon: https://i.imgur.com/YvXCh83s.png
+        url: http://192.168.86.249:8002
+        target: newtab
+        color: red
+        id: 3_957_docnotes
+      - title: N8
+        icon: https://avatars.githubusercontent.com/u/45487711?s=280&v=4
+        url: http://164.92.169.252:5678
+        target: newtab
+        id: 4_957_n
+      - icon: https://symbols.getvecta.com/stencil_89/48_nginx-icon.09661a73ff.svg
+        id: 5_957_nginx
+        target: modal
+        title: NGINX
+        url: ng.dmw.zone
+      - title: conf edit 1
+        icon: favicon
+        url: https://github.com/abraxas678/dashy-1/edit/master/public/conf.yml
+        target: newtab
+        id: 6_957_confedit
+      - title: Airdroid
+        icon: https://i.imgur.com/C8t337f.png
+        url: https://web.airdroid.com/?lang=de
+        target: workspace
+        id: 7_957_airdroid
+      - icon: >-
+          https://opencollective-production.s3.us-west-1.amazonaws.com/af670e80-082d-11ec-9ccd-77fe5bcff8a2.png
+        id: 8_957_uptime
+        target: modal
+        title: Uptime
+        url: https://uptime.dmw.zone/dashboard
+      - title: Home Ass 70/25
+        description: home assistant
+        icon: https://i.imgur.com/jf4v3T0.png
+        url: https://192.168.86.70:8123
+        target: newtab
+        id: 9_957_homeass
+      - title: edit start2
+        icon: favicon
+        url: https://github.com/abraxas678/start2/edit/main/start.sh
+        target: newtab
+        id: 10_957_editstart
+      - title: IFTTT MyApps
+        icon: https://i.imgur.com/CtvsaD9s.png
+        url: https://ifttt.com/my_applets
+        id: 11_957_iftttmyapps
+      - title: IFTTT Activities
+        icon: https://i.imgur.com/CtvsaD9s.png
+        url: https://ifttt.com/activity
+        target: modal
+        id: 12_957_iftttactivities
+      - subItems:
+          - color: '#F7DF1E'
+            icon: https://i.imgur.com/Kgd6jRls.png
+            title: home assistant logs
+            url: http://homeassistant:8123/config/logs
+          - color: '#3178C6'
+            icon: https://i.imgur.com/eTOet6S.png
+            title: docker compose
+            url: http://164.92.169.252:8095/files/docker/docker-compose.yml
+        title: ''
+        id: 13_957_unknown
+      - subItems:
+          - color: '#F7DF1E'
+            icon: https://i.imgur.com/W4BBV4os.png
+            title: Alias
+            url: http://164.92.169.252:8095/files/bin/alias.dat
+          - color: '#3178C6'
+            icon: si-docker
+            title: docker compose
+            url: http://164.92.169.252:8095/files/docker/docker-compose.yml
+          - color: '#FF3E00'
+            icon: https://i.imgur.com/9E6BsFs.png
+            title: zshrc
+            url: http://164.92.169.252:8095/files/.zshrc
+          - color: '#00ADD8'
+            icon: https://i.imgur.com/Fawb3bt.png
+            title: p10k.zsh
+            url: http://164.92.169.252:8095/files/.p10k.zsh
+        title: ''
+        id: 14_957_unknown
+      - title: ''
+        id: 15_957_unknown
+        subItems:
+          - color: '#FF3E00'
+            icon: https://i.imgur.com/9E6BsFs.png
+            title: zshrc
+            url: http://164.92.169.252:8095/files/.zshrc
+          - color: '#F7DF1E'
+            icon: https://i.imgur.com/hfQVzko.png
+            title: Apprise
+            url: http://164.92.169.252:8095/files/.apprise.yml
+          - color: '#3178C6'
+            icon: si-docker
+            title: docker compose
+            url: http://164.92.169.252:8095/files/docker/docker-compose.yml
+          - color: '#3178C6'
+            icon: https://i.imgur.com/wus829Vs.png
+            title: docker composed UNUSED
+            url: http://164.92.169.252:8095/files/docker/docker-composeUNUSED.yml
+      - title: 164.92.169.252
+        icon: ''
+        url: https://ra.dmw.zone/?cb&164.92.169.252
+        target: modal
+        id: 16_957_
+      - title: 164.92.236.211
+        url: https://ra.dmw.zone/?cb&164.92.236.211
+        target: modal
+        id: 17_957_
+      - title: 164.92.169.252
+        url: https://ra.dmw.zone?cb&164.92.169.252
+        target: modal
+        id: 18_957_
+      - title: test
+        subItems: 1,2,3
+        id: 19_957_test
+    name: Fequently
+  - displayData:
+      collapsed: false
+      cols: 1
+      hideForGuests: false
+      rows: 1
+      sortBy: default
+    icon: fas fa-comments
+    name: Communication
+    items:
+      - title: Gmail 1
+        icon: fas fa-at
+        url: https://mail.google.com/mail/u/1/
+        target: newtab
+        id: 0_1366_gmail
+      - title: Gmail 0
+        icon: fas fa-at
+        url: https://mail.google.com/mail/u/0/
+        target: newtab
+        color: '#3c403e'
+        id: 1_1366_gmail
+      - title: ntfy 99
+        description: http://164.92.169.252:88/ DIgitalOcean
+        icon: https://ntfy.sh/static/img/ntfy.png
+        url: https://ntfy.dmw.zone
+        target: newtab
+        id: 2_1366_ntfy
+      - title: ntfy .sh
+        icon: https://ntfy.sh/static/img/ntfy.png
+        url: https://ntfy.sh/app
+        target: newtab
+        id: 3_1366_ntfysh
+      - title: HiveMQ websocket
+        icon: https://i.imgur.com/FcR4iOy.png
+        url: >-
+          https://websocketclient.hivemq.cloud/?username=abraxas666&host=c8c143dc94f44330b45afbb60606dc27.s1.eu.hivemq.cloud&port=8884
+        statusCheck: true
+        statusCheckUrl: >-
+          https://websocketclient.hivemq.cloud/?username=abraxas666&host=c8c143dc94f44330b45afbb60606dc27.s1.eu.hivemq.cloud&port=8884
+        id: 4_1366_hivemqwebsocket
+      - title: Google Chat
+        icon: https://i.imgur.com/EudMvKi.png
+        url: https://mail.google.com/chat/u/1/
+        target: newtab
+        id: 5_1366_googlechat
+  - name: Notes
+    widgets:
+      - type: iframe
+        options:
+          url: >-
+            https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa/lovelace/notes?kiosk
+        id: 0_521_iframe
+      - type: iframe
+        options:
+          url: http://192.168.86.249:8002
+        id: 1_521_iframe
+    displayData:
+      sortBy: default
+      rows: 5
+      cols: 2
+      collapsed: true
+      hideForGuests: true
+    items: []
+  - name: CB
+    widgets:
+      - type: iframe
+        options:
+          url: >-
+            https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa/lovelace-hider/text2send?kiosk
+        id: 0_133_iframe
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: true
+    items: []
+  - name: Smarthome
+    icon: fas fa-house-signal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 3
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: HA 70/25
+        icon: https://i.imgur.com/jf4v3T0.png
+        url: https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa
+        target: workspace
+        id: 0_944_ha
+      - title: Kodi 20
+        icon: https://i.imgur.com/L1mfw2M.png
+        url: http://192.168.86.20:8080/
+        target: newtab
+        id: 1_944_kodi
+      - title: Kodi 30
+        icon: https://i.imgur.com/L1mfw2M.png
+        url: http://192.168.86.30:8080/
+        target: newtab
+        id: 2_944_kodi
+      - title: HA NEW
+        icon: https://i.imgur.com/jf4v3T0.png
+        url: https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa/lovelace/home
+        target: newtab
+        id: 3_944_hanew
+      - title: node-red 70/25
+        icon: https://nodered.org/about/resources/media/node-red-hexagon.png
+        url: http://192.168.86.70:1880
+        target: newtab
+        statusCheck: true
+        id: 4_944_nodered
+      - title: HA NEW local
+        icon: https://i.imgur.com/WyP9a1U.png
+        url: http://192.168.86.49:8123/lovelace/home
+        target: newtab
+        id: 5_944_hanewlocal
+      - title: node-red NEW
+        icon: https://nodered.org/about/resources/media/node-red-hexagon.png
+        url: http://homeassistant:1880/
+        target: newtab
+        id: 6_944_noderednew
+      - title: Waipu
+        icon: favicon
+        url: https://waipu.tv
+        target: newtab
+        id: 7_944_waipu
+      - title: Tautulli
+        icon: https://i.imgur.com/i4sHDMfs.png?1
+        url: https://tautullu.dmw.zone
+        target: newtab
+        id: 8_944_tautulli
+      - title: Emby .29
+        icon: favicon
+        url: http://192.168.86.29:8096/web/index.html?#!/home
+        target: newtab
+        statusCheck: true
+        statusCheckUrl: http://192.168.86.29:8096/web/index.html?#!/home
+        id: 9_944_emby
+      - title: TeST BUTTON N8
+        icon: favicon
+        url: https://n8.dmw.zone/webhook/button
+        target: modal
+        id: 10_944_testbuttonn
+      - title: MyOpenHab
+        icon: favicon
+        url: https://myopenhab.org/
+        target: newtab
+        hotkey: 1
+        id: 11_944_myopenhab
+      - title: Unraid ComApps
+        icon: favicon
+        url: https://unraid.net/community/apps
+        target: newtab
+        id: 12_944_unraidcomapps
+      - &ref_0
+        title: HA Tower
+        icon: https://i.imgur.com/jf4v3T0.png
+        url: http://tower.local:8123
+        target: workspace
+        statusCheck: true
+        id: 19_944_hatower
+  - name: Razer Control
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Razer
+        icon: https://i.imgur.com/ttVlPnks.png
+        url: http://google.com
+        subItems:
+          - title: TypeScript
+            url: https://ra.dmw.zone?open=ivcam
+            icon: https://i.imgur.com/ykiWFbms.png
+            color: '#3178C6'
+          - title: TypeScript
+            url: >-
+              https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=304c57b5ddbd4c10b03b76fa97d44559&deviceNames=oneplus&app=ManyCam
+            icon: https://i.imgur.com/2zBTvkDs.png
+            color: '#3178C6'
+          - title: Svelt
+            url: https://ra.dmw.zone?open=obs
+            icon: https://i.imgur.com/CRuLvrjs.png
+            color: '#FF3E00'
+          - title: Go
+            url: https://ra.dmw.zone?open=tv
+            icon: https://i.imgur.com/9tgC2Txs.png
+            color: '#00ADD8'
+          - title: Rust
+            url: https://doc.rust-lang.org/reference
+            icon: si-rust
+            color: '#000000'
+          - title: Docker
+            url: https://docs.docker.com/
+            icon: si-docker
+            color: '#2496ED'
+        id: 0_1285_razer
+      - title: OnePlus
+        icon: favicon
+        url: http://google.com
+        subItems:
+          - title: TypeScript
+            url: >-
+              https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=304c57b5ddbd4c10b03b76fa97d44559&deviceNames=oneplus&text=rkowake
+            icon: https://i.imgur.com/6IMqk4Os.png
+            color: '#3178C6'
+          - title: TypeScript
+            url: >-
+              https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=304c57b5ddbd4c10b03b76fa97d44559&deviceNames=oneplus&app=ManyCam
+            icon: https://i.imgur.com/2zBTvkDs.png
+            color: '#3178C6'
+          - title: Svelt
+            url: https://svelte.dev/docs
+            icon: si-svelte
+            color: '#FF3E00'
+          - title: Go
+            url: https://go.dev/doc
+            icon: si-go
+            color: '#00ADD8'
+          - title: Rust
+            url: https://doc.rust-lang.org/reference
+            icon: si-rust
+            color: '#000000'
+          - title: Docker
+            url: https://docs.docker.com/
+            icon: si-docker
+            color: '#2496ED'
+        id: 1_1285_oneplus
+      - title: Xiaomi
+        icon: favicon
+        url: http://google.com
+        subItems:
+          - title: TypeScript
+            icon: https://i.imgur.com/6IMqk4Os.png
+            color: '#3178C6'
+            url: >-
+              https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=304c57b5ddbd4c10b03b76fa97d44559&deviceNames=xiaomi&text=rkowake
+          - title: TypeScript
+            url: >-
+              https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=304c57b5ddbd4c10b03b76fa97d44559&deviceNames=xiaomi&app=ManyCam
+            icon: https://i.imgur.com/2zBTvkDs.png
+            color: '#3178C6'
+          - title: Svelt
+            url: https://svelte.dev/docs
+            icon: si-svelte
+            color: '#FF3E00'
+          - title: Go
+            url: https://go.dev/doc
+            icon: si-go
+            color: '#00ADD8'
+          - title: Rust
+            url: https://doc.rust-lang.org/reference
+            icon: si-rust
+            color: '#000000'
+          - title: Docker
+            url: https://docs.docker.com/
+            icon: si-docker
+            color: '#2496ED'
+        id: 2_1285_xiaomi
+      - title: snasftp
+        url: https://ra.dmw.zone/?mountsnasftp
+        target: modal
+        id: 3_1285_snasftp
+      - title: 'ManyCam OnePlus '
+        description: via join
+        url: >-
+          https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=304c57b5ddbd4c10b03b76fa97d44559&deviceNames=oneplus&app=ManyCam
+        target: modal
+        id: 4_1285_manycamoneplus
+      - title: 'ManyCam Xiaomi '
+        description: via join
+        url: >-
+          https://joinjoaomgcd.appspot.com/_ah/api/messaging/v1/sendPush?apikey=304c57b5ddbd4c10b03b76fa97d44559&deviceNames=xiaomi&app=ManyCam
+        target: modal
+        id: 5_1285_manycamxiaomi
+      - title: tel-mnt
+        url: >-
+          https://ra.dmw.zone/?cmd=ed2uxyEw4nQPVypWYhgKxKtFJfjDZbjANZm4S9CjpKgFdk2iJTwmL5JszN7UtmUHkupd2weXUshCZTbfrbrhRbDuRrpeamn9ojqNo3EPvUvUFDDtfhvbLL22USYsujfK
+        target: modal
+        id: 6_1285_telmnt
+      - title: webdav
+        url: >-
+          https://ra.dmw.zone?cmd=rWL07M41xGmEjGml1zjNZU2byYGexsfPnNQTl6jmq8HAPtgIJFitmEoYBXu4oPpnJVaNj1SwNGhOlbuiNkTAJLfKfPChuULA3BRAEORwpJXL8ZwwBq0c2bNZmyFauvCx
+        target: modal
+        id: 7_1285_webdav
+      - title: obs mc
+        icon: https://i.imgur.com/Ix71dr4s.jpg
+        target: modal
+        id: 8_1285_obsmc
+    icon: fas fa-joystick
+  - displayData:
+      collapsed: false
+      cols: 1
+      hideForGuests: false
+      hideForUsers:
+        - alicia
+      rows: 1
+      sortBy: most-used
+    icon: fas fa-analytics
+    items:
+      - title: fontawesome
+        description: Recent traffic and clone stats
+        icon: favicon
+        url: https://fontawesome.com/icons
+        target: newtab
+        id: 0_740_fontawesome
+      - icon: favicon
+        id: 1_740_chmodcalculator
+        title: chmod calculator
+        url: https://chmod-calculator.com/
+      - icon: https://cdn.worldvectorlogo.com/logos/imgur-1.svg
+        id: 2_740_imgurpics
+        title: Imgur Pics
+        url: https://abraxas678.imgur.com/all/
+      - icon: >-
+          https://play-lh.googleusercontent.com/i_pzs1EOVaNt3wDcYkBketmArqAaLkfpabSH8WxQJZTUKXnsKMGQURTOHRtCOHI9C7zR
+        id: 3_740_hexcolor
+        target: modal
+        title: HEX Color
+        url: >-
+          https://www.google.com/search?client=opera-gx&q=hex+color&sourceid=opera&ie=UTF-8&oe=UTF-8
+      - icon: >-
+          https://camo.githubusercontent.com/6c0964f4604a6807c263c83fff293258a908bdff7587910976d11c4e67a589bb/68747470733a2f2f692e6962622e636f2f796862743643592f64617368792e706e67
+        id: 4_740_compozerize
+        target: modal
+        title: Compozerize
+        url: https://www.composerize.com/
+      - title: Chrome Webstore
+        icon: >-
+          https://cdn0.iconfinder.com/data/icons/applications-windows-2/24/Chrome_Webstore_application-512.png
+        url: https://chrome.google.com/webstore/category/extensions?hl=de
+        target: modal
+        id: 5_740_chromewebstore
+      - title: Cron Guru
+        icon: https://i.imgur.com/hIdOBGy.png
+        url: https://crontab.guru/
+        target: modal
+        id: 6_740_cronguru
+    name: Sources
+  - name: Audio - Home Assistant
+    widgets:
+      - type: iframe
+        options:
+          url: >-
+            https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa/lovelace/media?kiosk
+        id: 0_1986_iframe
+    icon: fas fa-headphones
+    displayData:
+      sortBy: default
+      rows: 5
+      cols: 2
+      collapsed: true
+      hideForGuests: false
+    items: []
+  - name: NTFY
+    widgets:
+      - type: iframe
+        options:
+          url: >-
+            https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa/lovelace/notes?kiosk
+        id: 0_321_iframe
+    icon: fas fa-headphones
+    displayData:
+      sortBy: default
+      rows: 5
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items: []
+  - displayData:
+      collapsed: true
+      cols: 2
+      hideForGuests: false
+      rows: 1
+      sortBy: default
+    icon: fas fa-face-smile-horns
+    items:
+      - icon: favicon
+        id: 0_599_buddy
+        target: newtab
+        title: Buddy
+        url: http://buddy.net
+      - icon: favicon
+        id: 1_599_hunqz
+        target: newtab
+        title: Hunqz
+        url: http://hunqz.com
+      - icon: favicon
+        id: 2_599_marktde
+        target: newtab
+        title: markt.de
+        url: http://markt.de
+      - icon: >-
+          https://camo.githubusercontent.com/6c0964f4604a6807c263c83fff293258a908bdff7587910976d11c4e67a589bb/68747470733a2f2f692e6962622e636f2f796862743643592f64617368792e706e67
+        id: 3_599_homonet
+        target: newtab
+        title: homo.net
+        url: http://homo.net
+      - title: MeWe
+        icon: https://i.imgur.com/eJoSAMZ.png
+        url: https://mewe.com
+        target: newtab
+        id: 4_599_mewe
+    name: Dating
+  - name: Rental
+    icon: fa-solid fa-bed-bunk
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: true
+    items:
+      - title: Mr B&B
+        icon: favicon
+        url: https://www.misterbandb.com/account/conversations
+        target: newtab
+        id: 0_614_mrbb
+      - title: Calendar
+        icon: https://i.imgur.com/ulYFGEp.png
+        url: https://calendar.google.com/calendar/u/1/r
+        target: newtab
+        id: 1_614_calendar
+      - title: Wixsite
+        icon: fas fa-bed-bunk
+        url: https://amdamdes.wixsite.com/madhouse
+        id: 2_614_wixsite
+      - title: guest list
+        icon: favicon
+        url: https://www.misterbandb.com/account/bookings
+        target: newtab
+        id: 3_614_guestlist
+  - displayData:
+      collapsed: false
+      cols: 1
+      hideForGuests: false
+      rows: 1
+      sortBy: default
+    icon: fas fa-rocket-launch
+    items:
+      - title: Netlify
+        description: Dev Demo CI and Deployment
+        icon: favicon
+        url: https://app.netlify.com/teams/abraxas678/overview
+        id: 0_2225_netlify
+      - title: DigitalOcean
+        description: ''
+        icon: >-
+          https://cdn.iconscout.com/icon/free/png-256/digital-ocean-3629318-3031817.png
+        url: >-
+          https://cloud.digitalocean.com/projects/95b8d8c2-fd5e-4d41-837f-0e2e2c9a5908/resources?i=b2e4bd
+        target: newtab
+        id: 1_2225_digitalocean
+      - title: Clouflare
+        description: ''
+        icon: favicon
+        url: https://dash.cloudflare.com/b6c974be836f05dfca65895ef51a0036/dmw.zone
+        target: newtab
+        id: 2_2225_clouflare
+      - description: Uptime Monitoring
+        icon: favicon
+        id: 3_2225_statuspage
+        provider: Up Down
+        title: Status Page
+        url: https://updown.io/p/b0bkd
+      - title: Keycloak
+        icon: favicon
+        url: http://164.92.169.252:8093/auth/
+        target: newtab
+        id: 4_2225_keycloak
+      - title: CF ZeroTrust
+        icon: https://i.imgur.com/ZkKUfCy.png
+        url: >-
+          https://dash.teams.cloudflare.com/b6c974be836f05dfca65895ef51a0036/home
+        target: newtab
+        id: 5_2225_cfzerotrust
+    name: Hosting & Cloud Securtiy
+  - name: Tools
+    icon: fa-solid fa-screwdriver-wrench
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Code Server
+        icon: https://i.imgur.com/ApGTgqd.png
+        url: https://164.92.169.252:8443
+        target: workspace
+        id: 0_529_codeserver
+      - title: VS CODE
+        icon: https://i.imgur.com/ApGTgqd.png
+        url: https://open.vscode.dev/Lissy93/Dashy
+        target: newtab
+        id: 1_529_vscode
+      - title: audio converter
+        icon: https://i.imgur.com/VBI4ybQs.png
+        url: https://i.imgur.com/gjWChcH.png
+        target: newtab
+        id: 2_529_audioconverter
+      - title: html5 edit
+        icon: favicon
+        url: https://html5-editor.net/
+        target: modal
+        id: 3_529_htmledit
+      - title: WebTools
+        icon: https://i.imgur.com/U5bJhwws.png
+        url: https://wtools.io/
+        target: newtab
+        id: 4_529_webtools
+  - name: FileBrowser
     icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Filebr. SNAS
+        icon: https://avatars.githubusercontent.com/u/35781395?s=280&v=4
+        url: http://192.168.86.29:8091/files/
+        target: workspace
+        id: 0_1124_filebrsnas
+      - title: docker main 29
+        icon: https://i.imgur.com/8HSxVFj.png
+        url: http://192.168.86.29:8091/files/volume1/docker/main/
+        target: workspace
+        id: 1_1124_dockermain
+      - title: ' leer'
+        icon: >-
+          https://camo.githubusercontent.com/6c0964f4604a6807c263c83fff293258a908bdff7587910976d11c4e67a589bb/68747470733a2f2f692e6962622e636f2f796862743643592f64617368792e706e67
+        id: 2_1124_leer
+      - title: FileBrowser 252
+        icon: https://avatars.githubusercontent.com/u/35781395?s=280&v=4
+        url: http://164.92.169.252:8095/files/
+        target: newtab
+        id: 3_1124_filebrowser
+      - title: compose 29
+        url: http://192.168.86.29:8091/files/volume1/docker/main/docker-compose.yml
+        id: 4_1124_compose
+      - title: comp unused 29
+        url: >-
+          http://192.168.86.29:8091/files/volume1/docker/main/docker-compose_unused.yml
+        id: 5_1124_compunused
+  - displayData:
+      collapsed: false
+      cols: 1
+      hideForGuests: false
+      rows: 1
+      sortBy: default
+    icon: fas fa-brands fa-google
+    name: Google Apps
+    items:
+      - title: Drive
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png
+        url: https://drive.google.com/drive/u/1/my-drive
+        target: newtab
+        id: 0_1041_drive
+      - icon: https://cdn-icons-png.flaticon.com/512/5968/5968517.png
+        id: 1_1041_docs
+        title: Docs
+        url: https://docs.google.com/document/u/1/?tgif=d
+  - icon: fas fa-house-signal
+    items:
+      - icon: favicon
+        id: 0_944_producthunt
+        title: Product Hunt
+        url: https://www.producthunt.com/posts/dashy
+      - icon: favicon
+        id: 1_944_bountysource
+        title: Bounty Source
+        url: https://www.bountysource.com/teams/dashy
+      - icon: favicon
+        id: 2_944_alternativeto
+        title: Alternative To
+        url: https://alternativeto.net/software/dashy/about/
+      - icon: favicon
+        id: 3_944_stackshare
+        title: StackShare
+        url: https://stackshare.io/Lissy93/dashy
+      - icon: favicon
+        id: 4_944_slant
+        title: Slant
+        url: >-
+          https://www.slant.co/improve/topics/27783/viewpoints/1/~self-hosted-homelab-startpage~dashy
+      - description: Support Dashy's future development
+        icon: favicon
+        id: 5_944_ghsponsors
+        title: GH Sponsors
+        url: https://github.com/sponsors/Lissy93
+      - title: HA 70/25
+        icon: https://i.imgur.com/jf4v3T0.png
+        url: https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa/lovelace-home/0
+        target: workspace
+        id: 6_944_ha
+      - title: Kodi 20
+        icon: favicon
+        url: http://192.168.86.20:8080/
+        target: newtab
+        id: 7_944_kodi
+      - title: Kodi 30
+        icon: favicon
+        url: http://192.168.86.30:8080/
+        target: newtab
+        id: 8_944_kodi
+      - title: HA NEW
+        icon: favicon
+        url: https://wkjag6elo035oufatwa0axlc4mg1xy53.ui.nabu.casa/lovelace/home
+        target: workspace
+        id: 9_944_hanew
+      - title: node-red 70/25
+        icon: https://nodered.org/about/resources/media/node-red-hexagon.png
+        url: http://192.168.86.70:1880
+        target: newtab
+        id: 10_944_nodered
+      - title: HA NEW local
+        icon: https://i.imgur.com/WyP9a1U.png
+        url: http://192.168.86.49:8123/lovelace/home
+        target: newtab
+        id: 11_944_hanewlocal
+      - title: node-red NEW
+        icon: https://nodered.org/about/resources/media/node-red-hexagon.png
+        url: http://homeassistant:1880/
+        target: newtab
+        id: 12_944_noderednew
+      - title: Waipu
+        icon: favicon
+        url: https://waipu.tv
+        target: newtab
+        id: 13_944_waipu
+      - title: Tautulli
+        icon: https://i.imgur.com/i4sHDMfs.png?1
+        url: https://tautullu.dmw.zone
+        target: newtab
+        id: 14_944_tautulli
+      - title: Emby .29
+        icon: favicon
+        url: http://192.168.86.29:8096/web/index.html?#!/home
+        target: newtab
+        id: 15_944_emby
+      - title: TeST BUTTON N8
+        icon: favicon
+        url: https://n8.dmw.zone/webhook/button
+        target: modal
+        id: 16_944_testbuttonn
+      - title: MyOpenHab
+        icon: favicon
+        url: https://myopenhab.org/
+        target: newtab
+        hotkey: 1
+        id: 17_944_myopenhab
+      - title: Unraid ComApps
+        icon: favicon
+        url: https://unraid.net/community/apps
+        target: newtab
+        id: 18_944_unraidcomapps
+      - *ref_0
+    name: Smarthome
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 2
+      collapsed: true
+      hideForGuests: false
+  - displayData:
+      itemCountX: 2
+      itemSize: small
+      sectionLayout: grid
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    icon: fab fa-github-alt
+    items:
+      - icon: generative
+        id: 0_393_ghrepos
+        target: modal
+        title: GH Repos
+        url: https://github.com/abraxas678?tab=repositories
+      - icon: generative
+        id: 1_393_start
+        target: modal
+        title: start2
+        url: https://github.com/abraxas678/start2
+      - icon: favicon
+        id: 2_393_resticrunner
+        target: newtab
+        title: ResticRunner
+        url: https://github.com/alphapapa/restic-runner
+      - icon: ''
+        id: 3_393_
+        title: .
+        url: https://github.com/Lissy93/dashy/discussions
+      - icon: generative
+        id: 4_393_packages
+        title: Packages
+        url: https://github.com/Lissy93?tab=packages&repo_name=dashy
+      - icon: generative
+        id: 5_393_insights
+        title: Insights
+        url: https://github.com/Lissy93/dashy/pulse
+      - icon: generative
+        id: 6_393_wiki
+        title: Wiki
+        url: https://github.com/Lissy93/dashy/wiki
+      - icon: generative
+        id: 7_393_security
+        title: Security
+        url: https://github.com/Lissy93/dashy/security
+      - icon: generative
+        id: 8_393_contributors
+        title: Contributors
+        url: https://github.com/Lissy93/dashy/graphs/contributors
+      - icon: generative
+        id: 9_393_actions
+        title: Actions
+        url: https://github.com/Lissy93/dashy/actions
+    name: REPOS
+  - displayData:
+      itemCountX: 2
+      itemSize: large
+      sectionLayout: grid
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    icon: fas fa-traffic-light-go
+    items:
+      - description: Deployment of master branch
+        icon: https://i.ibb.co/cLfVCQP/dev-env.png
+        id: 0_1288_unknown
+        statusCheck: true
+        title: ''
+        url: https://dev.dashy.to
+      - description: Example instance with demo data
+        icon: https://i.ibb.co/bzVTYMx/live-demo.png
+        id: 1_1288_unknown
+        statusCheck: true
+        statusCheckAllowInsecure: true
+        title: ''
+        url: https://demo.dashy.to
+      - description: Documentation and info website
+        icon: https://i.ibb.co/f8GxrfC/docs-site.png
+        id: 2_1288_unknown
+        statusCheck: true
+        title: ''
+        url: https://dashy.to
+      - description: Source code, issues and PRs
+        icon: https://i.ibb.co/Lz29Q58/git-hub.png
+        id: 3_1288_unknown
+        statusCheck: true
+        title: ''
+        url: https://github.com/lissy93/dashy
+    name: Environments
+  - displayData:
+      itemCountX: 2
+      itemSize: small
+      sectionLayout: grid
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    icon: fas fa-book
+    items:
+      - icon: 💨
+        id: 0_926_quickstart
+        title: Quick Start
+        url: https://github.com/Lissy93/dashy/blob/master/docs/quick-start.md
+      - icon: 🚀
+        id: 1_926_deployment
+        title: Deployment
+        url: https://github.com/Lissy93/dashy/blob/master/docs/deployment.md
+      - icon: 🔧
+        id: 2_926_configuring
+        title: Configuring
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+      - icon: 💻
+        id: 3_926_management
+        title: Management
+        url: https://github.com/Lissy93/dashy/blob/master/docs/management.md
+      - icon: 🚒
+        id: 4_926_troubleshooting
+        title: Troubleshooting
+        url: https://github.com/Lissy93/dashy/blob/master/docs/troubleshooting.md
+      - icon: 🧱
+        id: 5_926_developing
+        title: Developing
+        url: https://github.com/Lissy93/dashy/blob/master/docs/developing.md
+      - icon: 🛎️
+        id: 6_926_devguides
+        title: Dev Guides
+        url: >-
+          https://github.com/Lissy93/dashy/blob/master/docs/development-guides.md
+      - icon: 💖
+        id: 7_926_contributing
+        title: Contributing
+        url: https://github.com/Lissy93/dashy/blob/master/docs/contributing.md
+      - icon: 🌟
+        id: 8_926_showcase
+        title: Showcase
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+      - icon: 🏆
+        id: 9_926_credits
+        title: Credits
+        url: https://github.com/Lissy93/dashy/blob/master/docs/credits.md
+    name: Usage Docs
+  - displayData:
+      itemCountX: 2
+      itemSize: small
+      sectionLayout: grid
+    icon: fas fa-book-spells
+    items:
+      - icon: 🛡️
+        id: 0_1141_authentication
+        title: Authentication
+        url: https://github.com/Lissy93/dashy/blob/master/docs/authentication.md
+      - icon: 🧿
+        id: 1_1141_alternateviews
+        title: Alternate Views
+        url: https://github.com/Lissy93/dashy/blob/master/docs/alternate-views.md
+      - icon: 💾
+        id: 2_1141_backuprestore
+        title: Backup & Restore
+        url: https://github.com/Lissy93/dashy/blob/master/docs/backup-restore.md
+      - icon: 🧸
+        id: 3_1141_icons
+        title: Icons
+        url: https://github.com/Lissy93/dashy/blob/master/docs/icons.md
+      - icon: 🌐
+        id: 4_1141_languageswitching
+        title: Language Switching
+        url: >-
+          https://github.com/Lissy93/dashy/blob/master/docs/multi-language-support.md
+      - icon: 🚦
+        id: 5_1141_statusindicators
+        title: Status Indicators
+        url: https://github.com/Lissy93/dashy/blob/master/docs/status-indicators.md
+      - icon: 🔍
+        id: 6_1141_searchingshortcuts
+        title: Searching  & Shortcuts
+        url: https://github.com/Lissy93/dashy/blob/master/docs/searching.md
+      - icon: 🎨
+        id: 7_1141_theming
+        title: Theming
+        url: https://github.com/Lissy93/dashy/blob/master/docs/theming.md
+    name: Feature Docs
+  - displayData:
+      collapsed: true
+    icon: fas fa-lock-alt
+    items:
+      - description: Secret detection
+        icon: favicon
+        id: 0_2234_gitguardian
+        title: GitGuardian
+        url: https://dashboard.gitguardian.com/workspace/145153/analytics
+      - description: Repo summary and change notifications
+        icon: favicon
+        id: 1_2234_gitdailies
+        title: GitDailies
+        url: https://app.gitdailies.com/install/18696733
+      - description: PR Info and Stats
+        icon: favicon
+        id: 2_2234_gitential
+        title: GitEntial
+        url: https://app.gitential.com/accounts/2907/projects/1
+      - description: Conditional checklists in PRs
+        icon: favicon
+        id: 3_2234_pullchecklist
+        title: PullChecklist
+        url: https://app.pullchecklist.com/organization/663/repository/18138
+      - description: Repo traffic and clones
+        icon: favicon
+        id: 4_2234_octostats
+        title: Octostats
+        url: https://octostats.netlify.app/details/343078060
+      - description: Summary and notifications of new releases
+        icon: favicon
+        id: 5_2234_releasenotifier
+        title: Release Notifier
+        url: https://newreleases.io/github/Lissy93/dashy
+    name: Internal Tools (Private)
+  - displayData:
+      collapsed: true
+      cols: 2
+      itemCountX: 4
+      itemSize: small
+      rows: 2
+      sortBy: default
+    icon: fas fa-traffic-light-go
+    items:
+      - description: Deploy to Netlify with 1-Click
+        icon: favicon
+        id: 0_1768_netlify
+        provider: Netlify
+        statusCheck: true
+        title: Netlify
+        url: >-
+          https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy
+      - description: Heroku Element App
+        icon: favicon
+        id: 1_1768_heroku
+        provider: Heroku
+        statusCheck: true
+        title: Heroku
+        url: https://elements.heroku.com/buttons/lissy93/dashy
+      - description: Docker container
+        icon: favicon
+        id: 2_1768_dockerhub
+        statusCheck: true
+        title: DockerHub
+        url: https://hub.docker.com/r/lissy93/dashy
+      - description: Sandbox environment
+        icon: https://www.docker.com/sites/default/files/Whale%20Logo332_5.png
+        id: 3_1768_pwd
+        statusCheck: true
+        title: PWD
+        url: >-
+          https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml
+      - description: Deploy Dashy to a Cloudflare Worker
+        icon: https://dash.cloudflare.com/favicon.ico
+        id: 4_1768_cloudflareworkers
+        provider: Cloudflare
+        statusCheck: true
+        title: CloudFlare Workers
+        url: >-
+          https://deploy.workers.cloudflare.com/?url=https://github.com/lissy93/dashy/tree/deploy_cloudflare
+      - description: Deploy Dashy to Vercel
+        icon: favicon
+        id: 5_1768_vercel
+        provider: Vercel
+        statusCheck: true
+        title: Vercel
+        url: >-
+          https://vercel.com/new/project?template=https://github.com/lissy93/dashy
+      - description: Deploy Dashy to DO
+        icon: favicon
+        id: 6_1768_digitaloceanapp
+        provider: Digital Ocean
+        statusCheck: true
+        title: Digital Ocean App
+        url: >-
+          https://cloud.digitalocean.com/apps/new?repo=https://github.com/lissy93/dashy/tree/deploy_digital-ocean
+      - description: Deploy Dashy to GCP
+        icon: https://cloud.google.com/favicon.ico
+        id: 7_1768_gcpdeploy
+        provider: Google
+        statusCheck: true
+        title: GCP Deploy
+        url: >-
+          https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git
+      - description: Deploy Dashy to Render
+        icon: favicon
+        id: 8_1768_render
+        provider: Render
+        statusCheck: true
+        title: Render
+        url: >-
+          https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render
+      - description: Deploy Dashy to Scalingo
+        icon: favicon
+        id: 9_1768_scalingo
+        provider: Scalingo
+        statusCheck: true
+        title: Scalingo
+        url: >-
+          https://my.scalingo.com/deploy?source=https://github.com/lissy93/dashy#master
+      - description: See full list of deployment services
+        icon: https://i.ibb.co/fGnr01r/astro-dab.png
+        id: 10_1768_viewmore
+        title: View More
+        url: https://dashy.to/docs/deployment#deploy-to-cloud-service
+    name: 1-Click Cloud Deploy
+  - displayData:
+      collapsed: true
+      itemCountX: 2
+      itemSize: small
+      sectionLayout: grid
     icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+    items:
+      - icon: generative
+        id: 0_1353_schemaexample
+        title: Schema Example
+        url: >-
+          https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FLissy93%2Fdashy%2Fmaster%2Fsrc%2Futils%2FConfigSchema.json
+      - icon: generative
+        id: 1_1353_configvalidator
+        title: Config Validator
+        url: https://www.jsonschemavalidator.net/s/JFUj7X9J
+      - icon: generative
+        id: 2_1353_jsontoyaml
+        title: JSON to YAML
+        url: https://jsonformatter.org/json-to-yaml
+      - icon: generative
+        id: 3_1353_yamltojson
+        title: YAML to JSON
+        url: https://jsonformatter.org/yaml-to-json
+      - icon: generative
+        id: 4_1353_exampleconfigs
+        title: Example Configs
+        url: https://gist.github.com/Lissy93/000f712a5ce98f212817d20bc16bab10
+      - icon: generative
+        id: 5_1353_configdocs
+        title: Config Docs
+        url: https://dashy.to/docs/configuring
+    name: Config Helpers
+  - displayData:
+      collapsed: true
+      cols: 1
+      hideForGuests: true
+      rows: 1
+      sortBy: most-used
+    icon: favicon
+    name: Tokens
+    items:
+      - title: Google Calendar
+        description: TV Gerät credientials
+        icon: https://i.imgur.com/m47o9VK.png
+        url: >-
+          576092354732-cegpe0k9p4n72779ftv1ho4m60qf55lh.apps.googleusercontent.com
+        target: clipboard
+        id: 0_628_googlecalendar
+      - title: key
+        icon: fas fa-key
+        url: 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
+        target: clipboard
+        id: 1_628_key
+      - title: Nuki
+        icon: https://i.imgur.com/KLfnWXms.png
+        url: https://ra.dmw.zone/?cb&rrfpbu
+        target: modal
+        id: 2_628_nuki
+      - title: iVCam
+        icon: fas fa-key
+        url: https://ra.dmw.zone?cb&AFTYS-D2U8U-GPQAR-IVY6E-WTM22
+        target: modal
+        id: 3_628_ivcam
+  - name: Code Analysis & Monitoring
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: 164.92.169.252 bigmaster
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: true
+    items:
+      - title: www
+        icon: favicon
+        url: http://164.92.169.252:8095/files/www/
+        target: newtab
+        id: 0_1703_www
+      - title: filebrowser
+        icon: favicon
+        url: http://164.92.169.252:8095/files/
+        target: modal
+        id: 1_1703_filebrowser
+  - name: Test
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Zahlen
+        icon: favicon
+        url: http://google.com
+        subItems:
+          - title: JavaScript
+            url: https://developer.mozilla.org
+            icon: si-javascript
+            color: '#F7DF1E'
+          - title: TypeScript
+            url: https://www.typescriptlang.org/docs
+            icon: si-typescript
+            color: '#3178C6'
+          - title: Svelt
+            url: https://svelte.dev/docs
+            icon: si-svelte
+            color: '#FF3E00'
+          - title: Go
+            url: https://go.dev/doc
+            icon: si-go
+            color: '#00ADD8'
+          - title: Rust
+            url: https://doc.rust-lang.org/reference
+            icon: si-rust
+            color: '#000000'
+          - title: Docker
+            url: https://docs.docker.com/
+            icon: si-docker
+            color: '#2496ED'
+        id: 0_416_zahlen
+      - title: 2. Box
+        id: 1_416_box
+      - title: HOMER
+        icon: https://i.imgur.com/7rePm9ys.png
+        url: https://app.dmw.zone/
+        target: modal
+        id: 2_416_homer
+      - title: Notes
+        icon: https://i.imgur.com/YvXCh83s.png
+        url: >-
+          https://cs.dmw.zone/?file=/mainroot/notizen.txt&folder=/config/workspace
+        target: newtab
+        id: 3_416_notes
+  - name: 192.168.86.42 Lubuntu
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: serve downl
+        description: >-
+          rclone serve webdav $PWD --user abraxas678 --pass winter11 --addr
+          192.168.86.42:8085
+        icon: favicon
+        url: >-
+          https://ra.dmw.zone/?cbbase64&cmNsb25lIHNlcnZlIHdlYmRhdiAvdG1wIC0tdXNlciBhYnJheGFzNjc4IC0tcGFzcyB3aW50ZXIxMSAtLWFkZHIgMTkyLjE2OC44Ni40Mjo4MDg1Cg==%
+        target: modal
+        id: 0_1448_servedownl
+  - name: 164.92.169.252
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: '252'
+        icon: https://avatars.githubusercontent.com/u/35781395?s=280&v=4
+        url: http://164.92.169.252:8095/login?redirect=%2Ffiles%2F
+        target: newtab
+        id: 0_713_
+      - title: HA
+        url: http://164.92.169.252:8123
+        target: newtab
+        statusCheck: true
+        id: 1_713_ha
+      - title: docpht
+        url: http://164.92.169.252:8008
+        statusCheck: true
+        id: 2_713_docpht
+      - title: ng statis 8027
+        url: http://164.92.169.252:8027
+        statusCheck: true
+        id: 3_713_ngstatis
+      - title: filbrowser 8095
+        url: http://164.92.169.252:8095
+        statusCheck: true
+        id: 4_713_filbrowser
+  - name: 192.168.86.29
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: '81'
+        url: http://192.168.86.29:81
+        statusCheck: true
+        id: 0_670_
+      - title: '82'
+        url: http://192.168.86.29:82
+        statusCheck: true
+        id: 1_670_
+      - title: '83'
+        url: http://192.168.86.29:83
+        statusCheck: true
+        id: 2_670_
+      - title: '84'
+        url: http://192.168.86.29:84
+        statusCheck: true
+        id: 3_670_
+      - title: '85'
+        url: http://192.168.86.29:85
+        statusCheck: true
+        id: 4_670_
+      - title: '86'
+        url: http://192.168.86.29:86
+        statusCheck: true
+        id: 5_670_
+      - title: '87'
+        url: http://192.168.86.29:87
+        statusCheck: true
+        id: 6_670_
+      - title: '88'
+        url: http://192.168.86.29:88
+        statusCheck: true
+        id: 7_670_
+      - title: '89'
+        url: http://192.168.86.29:89
+        statusCheck: true
+        id: 8_670_
+pages:
+  - name: Page2
+    path: conf2.yml
+  - {}
