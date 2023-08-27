@@ -22,7 +22,6 @@ Steven Kast <steven.m.kast@gmail.com> - 1 commits
 Xert <xertdev@gmail.com> - 1 commits
 abraxas678 <abraxas678@gmail.com> - 1 commits
 abraxas678 <abraxas678@users.noreply.github.com> - 1 commits
-dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> - 1 commits
 icy-comet <50461557+icy-comet@users.noreply.github.com> - 1 commits
 jnach <33467747+jnach@users.noreply.github.com> - 1 commits
 tazboyz16 <tazboyz_16@yahoo.com> - 1 commits
@@ -52,7 +51,7 @@ EVOTk <45015615+EVOTk@users.noreply.github.com> - 22 commits
 Alicia Bot <87835202+liss-bot@users.noreply.github.com> - 76 commits
 repo-visualizer <repo-visualizer@users.noreply.github.com> - 84 commits
 liss-bot <liss-bot@d0h.co> - 92 commits
-github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> - 95 commits
+github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> - 96 commits
 Alicia Sykes <alicia@omg.lol> - 109 commits
 Alicia Sykes <gh@d0h.co> - 390 commits
 Alicia Sykes <sykes.alicia@gmail.com> - 1403 commits
