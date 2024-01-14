@@ -32,8 +32,8 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/kenneth-church">
-            <img src="https://avatars.githubusercontent.com/u/5369885?v=4" width="80;" alt="kenneth-church"/>
+        <a href="https://github.com/azerioxal">
+            <img src="https://avatars.githubusercontent.com/u/5369885?v=4" width="80;" alt="azerioxal"/>
             <br />
             <sub><b>Kenneth Church</b></sub>
         </a>
@@ -135,7 +135,7 @@
         <a href="https://github.com/tazboyz16">
             <img src="https://avatars.githubusercontent.com/u/12215340?v=4" width="80;" alt="tazboyz16"/>
             <br />
-            <sub><b>tazboyz16</b></sub>
+            <sub><b>Tazboyz16</b></sub>
         </a>
     </td></tr>
 <tr>
@@ -157,7 +157,7 @@
         <a href="https://github.com/abraxas678">
             <img src="https://avatars.githubusercontent.com/u/7854814?v=4" width="80;" alt="abraxas678"/>
             <br />
-            <sub><b>abraxas678</b></sub>
+            <sub><b>Abraxas678</b></sub>
         </a>
     </td>
     <td align="center">
@@ -193,7 +193,7 @@
         <a href="https://github.com/rubjo">
             <img src="https://avatars.githubusercontent.com/u/42270947?v=4" width="80;" alt="rubjo"/>
             <br />
-            <sub><b>rubjo</b></sub>
+            <sub><b>Rubjo</b></sub>
         </a>
     </td>
     <td align="center">
